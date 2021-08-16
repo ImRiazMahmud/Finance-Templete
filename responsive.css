@@ -1,0 +1,145 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+p{
+	font-size: 14px !important;
+}
+
+.app-text h2{
+    color: #0f4332;
+	font-size: 23px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.submit-form p{
+	font-size: 11px !important;
+}
+
+.apply-form h1{
+	font-size: 48px;
+}
+.offset-1 {
+    margin-left: 0;
+}
+.apply-right {
+	margin-left: 80px;
+}
+
+
+.apply-form-box {
+    margin-right: -45px;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background: #0f4332 !important;
+    width: 100%;
+}
+
+
+
+.h-btn{
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+.nav-item a{
+	 padding: 15px 5px ;
+}
+.h-transparent > .container{
+	max-width: 800px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    padding: 0px !important;
+}
+.header-row{
+	padding: 0 0 0 0;
+}
+
+.navbar-brand {
+	padding-left: 40px;
+}
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 350px) and (max-width: 767px) {
+  
+  /* CSS */
+
+h1{
+	font-size: 41px !important;
+}
+h2{
+	font-size: 24px !important;
+}
+p{
+	font-size: 16px !important;
+}
+.info-man {
+    padding: 30px 29px;
+    bottom: -50px;
+    right: 0;
+}
+.offset-2 {
+    margin-left: 0 !important;
+}
+
+.s-right{
+	display: block;
+}
+.s-left {
+	margin-bottom: 50px;
+}
+.apply-right{
+	display: block;
+}
+
+.apply-left{
+	display: block;
+}
+.offset-1 {
+    margin-left: 0;
+}
+.apply-form-box {
+    margin-right: 0;
+}
+ 
+}
+
